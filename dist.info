@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "olua"
+version = "0.0.1prealpha"
+
+desc = "Objective Lua is a toy to experiment with welding the Objective C class semantics on top of Lua. It is in no way finished, or even useful. Functionality is extremely limited and that functionality is, in places, actually broken. However, it does provide a working means of trying out the syntax and writing test programs to play with it."
+author = "David Given"
+license = " MIT"
+url = "http://www.cowlark.com/objective-lua"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"leg >=0.1.2",
+}
